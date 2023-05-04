@@ -1,10 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .nav{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: aqua;
 }
 
 .btn{
     background-color: orange;
 }
+
