@@ -1,27 +1,33 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
-.nav{
+.navbar {
+    background-color: #333;
+    color: #fff;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    box-sizing: border-box;
-    margin:0%;
-    box-shadow: inset;
-    box-shadow: 10px 10px 5px lightblue;
+    align-items: center;
+    padding: 10px;
 }
-
-.btn{
-    background-color: lavender;
-    border-radius: 4px;
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
 }
-
-.btn1{
-
-    background-color: lavender;
-    border-radius: 4px;
+.cart-icon {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 10px;
 }
-
-
-
+.cart-count {
+    background-color: red;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
