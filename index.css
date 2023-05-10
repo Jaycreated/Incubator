@@ -1,15 +1,38 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
-.nav{
+.navbar {
+    background-color: #333;
+    color: #fff;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: aqua;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
 }
-
-.btn{
-    background-color: orange;
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
 }
-
+.cart-icon {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 40px;
+}
+.cart-count {
+    background-color: red;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 2;
+}
+.searchbox {
+    display: flex;
+}
