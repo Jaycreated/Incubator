@@ -10,6 +10,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    position: fixed;
+    width: 100%;
 }
 .navbar a {
     color: #fff;
@@ -19,7 +21,7 @@ body {
 .cart-icon {
     font-size: 25px;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 .cart-count {
     background-color: red;
@@ -29,5 +31,8 @@ body {
     font-size: 12px;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 2;
+}
+.searchbox {
+    display: flex;
 }
