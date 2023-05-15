@@ -36,3 +36,7 @@ body {
 .searchbox {
     display: flex;
 }
+
+.hamburger{
+    margin-right: 40px;
+}
