@@ -1,0 +1,85 @@
+/* Default styles for the navigation menu */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .searchbox {
+    display: flex;
+  }
+  
+  .searchbox input[type="search"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .searchbox .btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-icon {
+    position: relative;
+  }
+  
+  .cart-icon {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 40px;
+}
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #cb1818;
+    color: #e4e4e4;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .searchbox {
+      display: none;
+    }
+  
+    .cart-icon {
+      margin-right: 10px;
+    }
+  
+    .hamburger {
+      display: block;
+      margin-right: 40px;
+    }
+  }
+  
