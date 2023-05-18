@@ -33,6 +33,28 @@ body {
     top: 0;
     right: 2;
 }
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .searchbox {
+    display: none;
+  }
+
+  .cart-icon {
+    margin-right: 10px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-right: 40px;
+  }
+}
+
 .searchbox {
     display: flex;
 }
