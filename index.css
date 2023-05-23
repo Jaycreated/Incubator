@@ -40,9 +40,13 @@ body {
 }
 
 /* Media query for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .searchbox {
     display: none;
+  }
+
+  .navbar {
+    width: 50;
   }
 
   .cart-icon {
@@ -163,3 +167,6 @@ button.normal:hover{
   font-weight:700;
   color: #088178;
 }
+
+
+
